@@ -1,0 +1,15 @@
+7.1.1 Write a Python program to print an inverted right-angled triangle star pattern.
+n = int(input())
+
+for i in range(n, 0, -1):
+    print("*" * i)
+
+7.1.2 Write a Python program to accept three digits and print all possible 3-digit combinations that can be formed using those three digits. Each digit should be used exactly once in each combination.
+a, b, c = input().split()
+
+print(a + b + c)
+print(a + c + b)
+print(b + a + c)
+print(b + c + a)
+print(c + a + b)
+print(c + b + a)
