@@ -1,0 +1,14 @@
+3.1.1 Write a Python program that prompts the user to enter three integers. Print the largest of the three integers.
+a = int(input())
+b = int(input())
+c = int(input())
+
+largest = a
+if b > largest: largest = b
+if c > largest: largest = c
+print(largest)
+
+3.1.2 Write a Python program to convert temperature from Celsius to Fahrenheit.
+celsius = float(input())
+fahrenheit = (celsius * 9/5) + 32
+print(f"{fahrenheit:.2f}") 
